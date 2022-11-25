@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  catalogapi:
+    image: ${DOCKER_REGISTRY-}catalogapi
+    build:
+      context: .
+      dockerfile: CatalogApi/Dockerfile
+
+  testapp:
+    image: ${DOCKER_REGISTRY-}testapp
+    build:
+      context: .
+      dockerfile: TestApp/Dockerfile
+

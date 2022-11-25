@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33103.201
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{59100A1A-8009-40D5-B53C-D1FB504191DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogApi", "CatalogApi\CatalogApi.csproj", "{CB47FC89-8294-478F-8549-D916C02BE322}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F4B4F5D3-6EB0-4317-99D4-85C208B92DAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59100A1A-8009-40D5-B53C-D1FB504191DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59100A1A-8009-40D5-B53C-D1FB504191DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59100A1A-8009-40D5-B53C-D1FB504191DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59100A1A-8009-40D5-B53C-D1FB504191DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB47FC89-8294-478F-8549-D916C02BE322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB47FC89-8294-478F-8549-D916C02BE322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB47FC89-8294-478F-8549-D916C02BE322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB47FC89-8294-478F-8549-D916C02BE322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4B4F5D3-6EB0-4317-99D4-85C208B92DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B4F5D3-6EB0-4317-99D4-85C208B92DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B4F5D3-6EB0-4317-99D4-85C208B92DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B4F5D3-6EB0-4317-99D4-85C208B92DAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B056E6CB-6E18-4D18-B968-486021955D09}
+	EndGlobalSection
+EndGlobal
